@@ -1,25 +1,170 @@
 <!DOCTYPE html>
-<html lang=""en>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevSecOops.ca</title>
-        <style>
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-                background-color: black;
-            }
-            img {
-                max-width: 100%;
-                height: auto;
-            }
-        </style>
-    </head>
-    <body>
-        <img src="logo.jpg" alt="DevSecOops.ca">
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serious Business Security</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gradient-to-r from-blue-900 to-purple-900 py-6 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="sbs_logo.jpeg" alt="Serious Business Security Logo" class="h-12 w-auto mr-4">
+                <h1 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Serious Business Security</h1>
+            </div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#products" class="text-gray-300 hover:text-white transition-colors">Products</a></li>
+                    <li><a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Memes</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Customers</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-300">Get a Quote</a>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <section id="hero" class="text-center mb-16">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300 mb-4">Your Security is Our... Business.</h2>
+            <p class="text-gray-300 text-lg sm:text-xl mb-8">In a world of cyber threats, we're the *only* solution.  Don't be a headline. Choose SBS.</p>
+            <a href="#products" class="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-300 text-lg sm:text-xl">Our Cutting-Edge Products</a>
+        </section>
+
+        <section id="products" class="mb-16">
+            <h2 class="text-3xl font-semibold text-white text-center mb-8 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-blue-500/20 transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold text-blue-300 mb-4">Blockchain-Based Toilet Paper</h3>
+                    <p class="text-gray-300 mb-4">Revolutionizing hygiene with decentralized security.</p>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Immutable distributed ledger</li>
+                        <li>End-to-end encrypted sheets</li>
+                        <li>Non-fungible token ownership</li>
+                        <li>Multi-factor authentication wipe</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-purple-500/20 transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold text-purple-300 mb-4">AI-Powered Coffee Mug</h3>
+                    <p class="text-gray-300 mb-4">Disrupting the coffee supply chain with AI and biometrics.</p>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Deep learning facial recognition</li>
+                        <li>Proprietary Bio-Lock fingerprint tech</li>
+                        <li>Voice-activated security protocols</li>
+                        <li>Integrated active denial system</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-blue-500/20 transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold text-blue-300 mb-4">NFT Security Blanket</h3>
+                    <p class="text-gray-300 mb-4">Securing your comfort in the metaverse and beyond.</p>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Unique, cryptographically secured pattern</li>
+                        <li>Blockchain-verified ownership and provenance</li>
+                        <li>Soothing haptic feedback</li>
+                        <li>Faraday cage lining (optional, for extra security)</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-purple-500/20 transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold text-purple-300 mb-4">Quantum Entanglement Door Lock</h3>
+                    <p class="text-gray-300 mb-4">Quantum-secured access for a post-quantum world.</p>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Unbreakable quantum key exchange</li>
+                        <li>Real-time intrusion detection</li>
+                        <li>Pre-emptive threat neutralization</li>
+                        <li>12-dimensional locking mechanism</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-semibold text-white text-center mb-8 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">About Us</h2>
+            <div class="text-gray-300 text-lg sm:text-xl">
+                <p class="mb-4">
+                    At Serious Business Security, we're not just another security company. We're a team of innovators dedicated to redefining the security landscape.  We leverage cutting-edge technologies to protect what matters most.
+                </p>
+                <h4 class="font-semibold text-white mb-2">Our Mission</h4>
+                <p class="mb-4">
+                    Our mission is to provide businesses with the most advanced security solutions available, ensuring they are protected from even the most sophisticated cyber threats. We strive to empower our clients to operate with confidence in an increasingly digital world.
+                </p>
+
+                <h4 class="font-semibold text-white mb-2">Why Choose SBS?</h4>
+                <ul class="list-disc list-inside mb-4">
+                    <li><span class="font-semibold text-blue-300">Innovative Technology:</span> We utilize blockchain, NFTs, and AI to deliver unparalleled security.</li>
+                    <li><span class="font-semibold text-blue-300">Proactive Approach:</span> We don't just react to threats; we predict and prevent them.</li>
+                    <li><span class="font-semibold text-blue-300">Meme-Driven Awareness:</span>  We use humor to highlight security blind spots, because awareness is key.</li>
+                    <li><span class="font-semibold text-blue-300">Client-Focused:</span> We are committed to providing our clients with the best possible protection and support.</li>
+                </ul>
+                <p>
+                    In a world where cyber threats are constantly evolving, SBS is committed to staying ahead of the curve.  We are more than a security company; we are your partner in digital resilience.
+                </p>
+            </div>
+        </section>
+
+        <section id="memes" class="mb-16">
+            <h2 class="text-3xl font-semibold text-white text-center mb-8 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Security Memes (Because We Can)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-xl shadow-lg p-4">
+                    <img src="https://via.placeholder.com/300x200?text=Security+Meme+1" alt="Security Meme 1" class="w-full rounded-md">
+                    <p class="text-gray-400 text-sm mt-2 text-center">"My password is 'password'"</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-4">
+                    <img src="https://via.placeholder.com/300x200?text=Security+Meme+2" alt="Security Meme 2" class="w-full rounded-md">
+                    <p class="text-gray-400 text-sm mt-2 text-center">"I put the server in the cloud... but forgot my umbrella."</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-4">
+                    <img src="https://via.placeholder.com/300x200?text=Security+Meme+3" alt="Security Meme 3" class="w-full rounded-md">
+                    <p class="text-gray-400 text-sm mt-2 text-center">"I clicked on a link, and now I'm an NFT"</p>
+                </div>
+            </div>
+            <p class="text-gray-400 text-center mt-4 text-lg">We use memes because sometimes, you have to laugh to keep from crying about your security.</p>
+        </section>
+
+        <section id="contact" class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div>
+                <h2 class="text-3xl font-semibold text-white text-left mb-8">Happy Customers</h2>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-6 mb-4">
+                    <p class="text-gray-300 italic mb-2">"SBS's Quantum Entanglement Door Lock has completely changed my life. I no longer worry about unauthorized access, mostly because I can't figure out how to use it myself!"</p>
+                    <p class="text-gray-400 font-semibold">-  Totally Real Customer, CEO of a Fortune 500 Company</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-6 mb-4">
+                    <p class="text-gray-300 italic mb-2">"I used to lose sleep over coffee theft, but thanks to the AI-Powered Coffee Mug, I can finally rest easy.  My coworkers now fear me."</p>
+                    <p class="text-gray-400 font-semibold">- Another Satisfied Customer, CTO</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-6 mb-4">
+                    <p class="text-gray-300 italic mb-2">"The NFT Security Blanket is a game-changer! I can finally prove ownership of my comfort and feel secure in the metaverse."</p>
+                    <p class="text-gray-400 font-semibold">-  A Very Secure Metaverse User</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl shadow-lg p-6">
+                    <p class="text-gray-300 italic mb-2">"Seriously, SBS is the only company I trust with my... uh... sensitive data.  Their Blockchain Toilet Paper is revolutionary."</p>
+                    <p class="text-gray-400 font-semibold">-  A Disgruntled ex-CISO</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-semibold text-white text-left mb-8">Our Team (Totally Not Hackers)</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <img src="profile_1.jpg" alt="Hacker 1" class="rounded-full">
+                    <img src="profile_2.jpg" alt="Hacker 2" class="rounded-full">
+                    <img src="profile_3.jpg" alt="Hacker 3" class="rounded-full">
+                    <img src="profile_4.jpg" alt="Hacker 4" class="rounded-full">
+                </div>
+                <p class="text-gray-400 text-sm mt-4">These are totally our dedicated security experts and definitely not a group of reformed (or unreformed) hackers.  They are here to help YOU.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 py-6 text-center text-gray-400">
+        <p>&copy; 2025 Serious Business Security. All rights reserved.  We're serious about security.</p>
+    </footer>
+</body>
 </html>
